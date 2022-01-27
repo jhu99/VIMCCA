@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="ec1c80e322f24725a5d6320ea8bc3939" class="chart-container" style="width:1400px; height:500px;"></div>
+    <script>
+        var chart_ec1c80e322f24725a5d6320ea8bc3939 = echarts.init(
+            document.getElementById('ec1c80e322f24725a5d6320ea8bc3939'), 'white', {renderer: 'canvas'});
+        var option_ec1c80e322f24725a5d6320ea8bc3939 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "name": "sankey",
+            "data": [
+                {
+                    "name": "Treg(Seurat4)"
+                },
+                {
+                    "name": "MAIT(Seurat4)"
+                },
+                {
+                    "name": "CD4_TEM(Seurat4)"
+                },
+                {
+                    "name": "CD8_TEM_2(Seurat4)"
+                },
+                {
+                    "name": "Intermediate_B(Seurat4)"
+                },
+                {
+                    "name": "CD8_TEM_1(Seurat4)"
+                },
+                {
+                    "name": "Plasma(Seurat4)"
+                },
+                {
+                    "name": "CD4_Naive(Seurat4)"
+                },
+                {
+                    "name": "gdT(Seurat4)"
+                },
+                {
+                    "name": "CD16_Mono(Seurat4)"
+                },
+                {
+                    "name": "cDC(Seurat4)"
+                },
+                {
+                    "name": "CD4_TCM(Seurat4)"
+                },
+                {
+                    "name": "pDC(Seurat4)"
+                },
+                {
+                    "name": "CD14_Mono(Seurat4)"
+                },
+                {
+                    "name": "Memory_B(Seurat4)"
+                },
+                {
+                    "name": "CD8_Naive(Seurat4)"
+                },
+                {
+                    "name": "NK(Seurat4)"
+                },
+                {
+                    "name": "HSPC(Seurat4)"
+                },
+                {
+                    "name": "Naive_B(Seurat4)"
+                },
+                {
+                    "name": "Basophil(VIMCCA)"
+                },
+                {
+                    "name": "CD4_Naive(VIMCCA)"
+                },
+                {
+                    "name": "CD8_TEM(VIMCCA)"
+                },
+                {
+                    "name": "B_Memory(VIMCCA)"
+                },
+                {
+                    "name": "Plasma(VIMCCA)"
+                },
+                {
+                    "name": "MAIT(VIMCCA)"
+                },
+                {
+                    "name": "CD16_Mono(VIMCCA)"
+                },
+                {
+                    "name": "CD4_TCM(VIMCCA)"
+                },
+                {
+                    "name": "HSPC(VIMCCA)"
+                },
+                {
+                    "name": "CD14_Mono(VIMCCA)"
+                },
+                {
+                    "name": "B_pre(VIMCCA)"
+                },
+                {
+                    "name": "Treg(VIMCCA)"
+                },
+                {
+                    "name": "pDC(VIMCCA)"
+                },
+                {
+                    "name": "CD4_TSCM(VIMCCA)"
+                },
+                {
+                    "name": "cDC(VIMCCA)"
+                },
+                {
+                    "name": "B_Naive(VIMCCA)"
+                },
+                {
+                    "name": "NK(VIMCCA)"
+                },
+                {
+                    "name": "CD4_TEM(VIMCCA)"
+                },
+                {
+                    "name": "gdT(VIMCCA)"
+                },
+                {
+                    "name": "CD8_Naive(VIMCCA)"
+                }
+            ],
+            "links": [
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 54
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 78
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 53
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 15
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD4_TSCM(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 64
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 11
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 271
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 8
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 115
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 302
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 16
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 7
+                },
+                {
+                    "source": "CD8_TEM(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 71
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 1286
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 30
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 14
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD8_Naive(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 1098
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 20
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 65
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 30
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 7
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 9
+                },
+                {
+                    "source": "CD4_Naive(VIMCCA)",
+                    "target": "Intermediate_B(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 651
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 175
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 36
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 71
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD4_TCM(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD16_Mono(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 393
+                },
+                {
+                    "source": "CD16_Mono(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 10
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 383
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 25
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 9
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "NK(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 2718
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 111
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 7
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "cDC(Seurat4)",
+                    "value": 33
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 3
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 26
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD4_Naive(Seurat4)",
+                    "value": 8
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 5
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "pDC(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 3
+                },
+                {
+                    "source": "CD14_Mono(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 124
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 118
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "CD4_TEM(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 183
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 55
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 92
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "Treg(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "cDC(VIMCCA)",
+                    "target": "cDC(Seurat4)",
+                    "value": 160
+                },
+                {
+                    "source": "cDC(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 11
+                },
+                {
+                    "source": "cDC(VIMCCA)",
+                    "target": "pDC(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "cDC(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "Intermediate_B(Seurat4)",
+                    "value": 87
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 325
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "Memory_B(Seurat4)",
+                    "value": 33
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "Plasma(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "B_Naive(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "Basophil(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "Basophil(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 67
+                },
+                {
+                    "source": "Basophil(VIMCCA)",
+                    "target": "cDC(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "Memory_B(Seurat4)",
+                    "value": 7
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 29
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "cDC(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "CD14_Mono(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "Intermediate_B(Seurat4)",
+                    "value": 20
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "Plasma(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "B_pre(VIMCCA)",
+                    "target": "CD16_Mono(Seurat4)",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma(VIMCCA)",
+                    "target": "Plasma(Seurat4)",
+                    "value": 15
+                },
+                {
+                    "source": "MAIT(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 111
+                },
+                {
+                    "source": "MAIT(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 5
+                },
+                {
+                    "source": "MAIT(VIMCCA)",
+                    "target": "CD4_TEM(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "B_Memory(VIMCCA)",
+                    "target": "Memory_B(Seurat4)",
+                    "value": 102
+                },
+                {
+                    "source": "B_Memory(VIMCCA)",
+                    "target": "Intermediate_B(Seurat4)",
+                    "value": 245
+                },
+                {
+                    "source": "B_Memory(VIMCCA)",
+                    "target": "Naive_B(Seurat4)",
+                    "value": 10
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "gdT(Seurat4)",
+                    "value": 15
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "CD4_TCM(Seurat4)",
+                    "value": 4
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "NK(Seurat4)",
+                    "value": 40
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "CD8_TEM_2(Seurat4)",
+                    "value": 20
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "MAIT(Seurat4)",
+                    "value": 6
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "Treg(Seurat4)",
+                    "value": 1
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "CD8_TEM_1(Seurat4)",
+                    "value": 8
+                },
+                {
+                    "source": "gdT(VIMCCA)",
+                    "target": "CD8_Naive(Seurat4)",
+                    "value": 3
+                },
+                {
+                    "source": "pDC(VIMCCA)",
+                    "target": "pDC(Seurat4)",
+                    "value": 102
+                },
+                {
+                    "source": "pDC(VIMCCA)",
+                    "target": "cDC(Seurat4)",
+                    "value": 2
+                },
+                {
+                    "source": "HSPC(VIMCCA)",
+                    "target": "HSPC(Seurat4)",
+                    "value": 26
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 8,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.2,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "sankey"
+            ],
+            "selected": {
+                "sankey": true
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    }
+};
+        chart_ec1c80e322f24725a5d6320ea8bc3939.setOption(option_ec1c80e322f24725a5d6320ea8bc3939);
+    </script>
+</body>
+</html>

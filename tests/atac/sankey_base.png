@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="5fd5f53e483f46efac57ef6eff0d08bb" class="chart-container" style="width:1200px; height:600px;"></div>
+    <script>
+        var chart_5fd5f53e483f46efac57ef6eff0d08bb = echarts.init(
+            document.getElementById('5fd5f53e483f46efac57ef6eff0d08bb'), 'white', {renderer: 'canvas'});
+        var option_5fd5f53e483f46efac57ef6eff0d08bb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "name": "sankey",
+            "data": [
+                {
+                    "name": "CD4 TCM"
+                },
+                {
+                    "name": "Treg"
+                },
+                {
+                    "name": "CD8 TEM_2"
+                },
+                {
+                    "name": "CD4 Naive"
+                },
+                {
+                    "name": "MAIT"
+                },
+                {
+                    "name": "Intermediate B"
+                },
+                {
+                    "name": "CD8 TEM_1"
+                },
+                {
+                    "name": "CD4 TEM"
+                },
+                {
+                    "name": "Plasma"
+                },
+                {
+                    "name": "CD8 Naive"
+                },
+                {
+                    "name": "cDC"
+                },
+                {
+                    "name": "NK"
+                },
+                {
+                    "name": "CD14 Mono"
+                },
+                {
+                    "name": "Naive B"
+                },
+                {
+                    "name": "Memory B"
+                },
+                {
+                    "name": "pDC"
+                },
+                {
+                    "name": "gdT"
+                },
+                {
+                    "name": "HSPC"
+                },
+                {
+                    "name": "CD16 Mono"
+                },
+                {
+                    "name": "CD4 TCM"
+                },
+                {
+                    "name": "Treg"
+                },
+                {
+                    "name": "Basophil"
+                },
+                {
+                    "name": "B CD27hi CD38hi"
+                },
+                {
+                    "name": "B Memory"
+                },
+                {
+                    "name": "CD4 Naive"
+                },
+                {
+                    "name": "MAIT"
+                },
+                {
+                    "name": "CD8 TEM"
+                },
+                {
+                    "name": "B Naive"
+                },
+                {
+                    "name": "CD4 TEM"
+                },
+                {
+                    "name": "Plasma"
+                },
+                {
+                    "name": "CD8 Naive"
+                },
+                {
+                    "name": "cDC"
+                },
+                {
+                    "name": "NK"
+                },
+                {
+                    "name": "CD14 Mono"
+                },
+                {
+                    "name": "pDC"
+                },
+                {
+                    "name": "gdT"
+                },
+                {
+                    "name": "HSPC"
+                },
+                {
+                    "name": "CD16 Mono"
+                },
+                {
+                    "name": "CD4 TSCM"
+                },
+                {
+                    "name": "CD14 Mono 02"
+                }
+            ],
+            "links": [
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TSCM",
+                    "target": "MAIT",
+                    "value": 1
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 TEM",
+                    "target": "NK",
+                    "value": 3
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD8 Naive",
+                    "target": "Treg",
+                    "value": 2
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 Naive",
+                    "target": "Intermediate B",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD4 TCM",
+                    "target": "CD8 Naive",
+                    "value": 4
+                },
+                {
+                    "source": "CD16 Mono",
+                    "target": "CD14 Mono",
+                    "value": 10
+                },
+                {
+                    "source": "CD16 Mono",
+                    "target": "CD14 Mono",
+                    "value": 10
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "NK",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "gdT",
+                    "target": "CD8 Naive",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono",
+                    "target": "gdT",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD4 TEM",
+                    "target": "NK",
+                    "value": 1
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "CD14 Mono 02",
+                    "target": "CD8 TEM_1",
+                    "value": 3
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "Treg",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "cDC",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "cDC",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "cDC",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "cDC",
+                    "target": "CD16 Mono",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "B Naive",
+                    "target": "CD4 TCM",
+                    "value": 1
+                },
+                {
+                    "source": "Basophil",
+                    "target": "cDC",
+                    "value": 1
+                },
+                {
+                    "source": "Basophil",
+                    "target": "cDC",
+                    "value": 1
+                },
+                {
+                    "source": "Basophil",
+                    "target": "cDC",
+                    "value": 1
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "Plasma",
+                    "target": "CD16 Mono",
+                    "value": 3
+                },
+                {
+                    "source": "B CD27hi CD38hi",
+                    "target": "Plasma",
+                    "value": 15
+                },
+                {
+                    "source": "MAIT",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "MAIT",
+                    "target": "CD8 TEM_2",
+                    "value": 1
+                },
+                {
+                    "source": "B Memory",
+                    "target": "Naive B",
+                    "value": 10
+                },
+                {
+                    "source": "B Memory",
+                    "target": "Naive B",
+                    "value": 10
+                },
+                {
+                    "source": "B Memory",
+                    "target": "Naive B",
+                    "value": 10
+                },
+                {
+                    "source": "pDC",
+                    "target": "cDC",
+                    "value": 2
+                },
+                {
+                    "source": "pDC",
+                    "target": "cDC",
+                    "value": 2
+                },
+                {
+                    "source": "HSPC",
+                    "target": "HSPC",
+                    "value": 26
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 8,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.2,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "sankey"
+            ],
+            "selected": {
+                "sankey": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Sankey-cell type",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_5fd5f53e483f46efac57ef6eff0d08bb.setOption(option_5fd5f53e483f46efac57ef6eff0d08bb);
+    </script>
+</body>
+</html>
